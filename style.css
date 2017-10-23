@@ -1,0 +1,64 @@
+html{
+background-color: DodgerBlue;
+text-align: center;
+
+}
+h1 a{
+font-family: 'Freckle Face', cursive;
+font-family: 'Frijole', cursive;
+}
+h1{
+	text-decoration:none;
+}
+
+#links li{
+list-style:none;
+display:inline;
+color: white;
+padding: 20px;
+font-size:22px;
+}
+
+ul li{
+    display: block;
+   
+    padding: 18px;
+}
+ul li a:hover{
+color:red;
+}
+
+ul li a{
+color:white;
+text-decoration:none;
+font-family: 'Freckle Face', cursive;
+}
+
+ul{
+overflow: hidden;
+background-color: #333333;
+padding: 15px;
+}
+
+body
+{
+background:  url("../images/Home_Page.png") no-repeat fixed center;
+}
+
+video#bgVideo {
+position: absolute;
+top:0px;
+left:0px;
+right:0px;
+bottom:0px;
+width: auto;
+min-width: 100%;
+height: auto;
+min-height: 100%;
+z-index: -1;    
+background-size: cover;
+}
+
+.copyright {
+color:white;
+}
